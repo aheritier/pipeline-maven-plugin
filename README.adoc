@@ -153,7 +153,7 @@ The Maven parameters that are useful on a build server, "`+--batch-mode+`" ("`+-
 [#feature-maven-integration-global-settings]
 === Maven Global Settings Support
 
-The "`+withMaven()"+` pipeline step will setup the Maven settings file and global settings file either explicitly using the attributes of the "withMaven()\{}" step declaration or implicitly using the Maven Global Settings and Settings files defined at the folder level or in the Jenkins Global Tools Configuration.
+The `withMaven()` pipeline step will setup the Maven settings file and global settings file either explicitly using the attributes of the `withMaven(){}` step declaration or implicitly using the Maven Global Settings and Settings files defined at the folder level or in the Jenkins Global Tools Configuration.
 
 Using implicit declaration, Jenkins administrators can simplify the work of pipeline authors hiding the "boilerplate" to declare the credentials of the Git, Nexus, Artifactory... servers and all the needed proxies, mirrors...
 
